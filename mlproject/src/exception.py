@@ -1,5 +1,5 @@
 import sys
-from src.log_config import logging 
+from mlproject.src.log_config import logging 
 
 def error_message_details(error, error_detail: sys):
     exc_type, exc_obj, exc_tb = error_detail.exc_info()
